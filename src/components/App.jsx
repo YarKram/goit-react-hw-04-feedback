@@ -33,6 +33,7 @@ const App = () => {
   };
 
   const total = good + bad + neutral;
+  console.log(total);
 
   return (
     <AppStyled>
